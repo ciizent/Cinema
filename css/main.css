@@ -1,0 +1,348 @@
+body {
+    background: #621402;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    padding-bottom: 60px;
+    background-image: linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), url('../img/bg.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 57px;
+}
+
+.menu-item {
+    margin-right: 25px;
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+    margin-left: 11px;
+}
+
+.user {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.film {
+    padding-top: 60px;
+    color: white;
+    display: flex;
+}
+
+.film-title-small {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+
+.film-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 11px;
+}
+
+.film-description {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    max-width: 560px;
+}
+
+.film-trailer {
+    margin: auto;
+}
+
+.film-details {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.time {
+    display: flex;
+    text-align: center;
+}
+
+.time-clock {
+    margin-right: 14px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-left: 36px;
+}
+
+.rating-icon {
+    margin-right: 15px;
+}
+
+.rating-current {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+hr {
+    max-width: 1170px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    margin-top: 36px;
+}
+
+.session {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 36px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.session-date-block {
+    display: flex;
+}
+
+.session-date-item {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid white;
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    margin-top: 21px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+}
+
+.session-month {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.session-day {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.session-week {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.session-date-item:hover {
+    background-color: #FE8E05;
+    color: #621402;
+}
+
+.select-cinema {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 35px;
+    width: 470px;
+    height: 60px;
+    font: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    cursor: pointer;
+}
+
+.select-time {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    margin-top: 35px;
+    width: 108px;
+    height: 60px;
+    font: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    cursor: pointer;
+}
+
+.select ::after {
+    /* Vector 2 */
+    position: absolute;
+    width: 7px;
+    height: 14px;
+    left: 1084.75px;
+    top: 705px;
+    border: 2px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.placeholder {
+    width: 1170px;
+    height: 686px;
+    background: rgba(36, 36, 36, 0.18);
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 72px;
+}
+
+.order {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px 52px;
+    color: white;
+}
+
+.order-accept {
+    width: 254px;
+    height: 69px;
+    left: 1051px;
+    top: 1641px;
+    background: #FE8E05;
+    border-radius: 5px;
+    font-style: italic;
+    color: white;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.price-n {
+    font-size: 40px;
+    line-height: 21px;
+}
+
+.scheme {
+    background: rgba(36, 36, 36, 0.18);
+    border-radius: 10px;
+    margin-top: 77px;
+    margin-bottom: 40px;
+}
+
+.scheme path:not(.light) {
+    fill: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.scheme path:not(.light):hover {
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.scheme path.booked {
+    fill: rgba(255, 255, 255, 0.05);
+    cursor: not-allowed;
+}
+
+.scheme path.booked:hover {
+    fill: rgba(255, 255, 255, 0.05);
+    cursor: not-allowed;
+}
+
+.scheme path.active {
+    fill: #FE8E05;
+}
+
+.scheme path.active:hover {
+    fill: #FE8E05;
+}
+
+.legend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    max-width: 1024px;
+    margin: auto;
+    padding-top: 22px;
+    padding-bottom: 38px;
+    color: white;
+}
+
+.legend-label {
+    align-items: center;
+    display: flex;
+    margin-right: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.legend svg {
+    margin-right: 15px;
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.price-label {
+    display: block;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.price-tag {
+    font-size: 52px;
+    line-height: 61px;
+}
+
+.button {
+    display: block;
+    background: #FE8E05;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 24px 52px;
+    text-decoration: none;
+}
